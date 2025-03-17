@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.101);
+    position: relative;
+   }
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    position: center;
+    font-size: large;
+    }
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.destinations {
+    margin-top: 2%;
+}
+
+.destinations-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ville {
+    width: 30%;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 0 10px rgb(42, 40, 40);
+    border: solid 1px;
+    padding-bottom: 2rem;
+}
+
+.img {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+	transform: translateX(-50%);
+    bottom: 2%;
+    color: white;
+    box-sizing: 30% 10%;
+    padding: 3%;
+}
+.btn-paris {
+    background-color: rgb(117, 117, 255);
+}
+.btn-tokyo {
+    background-color: rgb(218, 20, 30);
+}
+.btn-ny {
+    background-color: rgb(154, 14, 236);
+}
